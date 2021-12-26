@@ -122,15 +122,15 @@ label {
 
 .login {
     align-items: center;
-    background: rgb(223, 207, 222);
+    background: rgb(199, 145, 224);
     border-radius: 60% / 10%;
     transform: translateY(-100px);
-    transition: .8s ease-in-out;
+    transition: .6s ease-in-out;
     height: 100%
 }
 
 .login label {
-    color: black;
+    color: white;
     transform: scale(.5);
 }
 
@@ -140,6 +140,7 @@ label {
 
 #window:checked ~ .login {
     transform: translateY(-475px);
+    transition-duration: 1s;
 }
 
 #window:checked ~ .login label {
